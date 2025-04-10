@@ -1,0 +1,100 @@
+<!DOCTZPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="description" content="Jednuduchý tutoriál o HTML a CSS">
+    <meta name="author" content="Matěj Mrovec">
+    <title>HTML tutorial</title>
+</head>
+<body>
+    <header>
+        <h1>Speciality a tipy v HTML5</h1>
+    </header>
+    <main>
+        <section id="typy-elementu">
+            <h2>Typy HTML elementů</h2>
+            <p>Používáme <strong>párové značky</strong> (p, title, body...) 
+                a <strong>nepárové značky</strong> (meta, hr, br, img).</p>
+            <h3>Inline elementy</h3>
+            <p>Jde o značky, které jsou používány vrámci řádku a nevytvářejí 
+                samostatné bloky.</p>
+            <p><strong>Významný pojem</strong>, <em>zvýrazněný pojem</em>, 
+            <b>tučné písmo</b>, <i>kurzíva</i>, <mark>zvýrazněné písmo</mark>,
+                H<sub>2</sub>O, 2<sup>8</sup></p>
+            <h3>Blokové elementy</h3>
+            <p>Jsou to značky, které zalomí řádek: například p, div, ul, li ...</p>
+            <h3>Sématické elementy</h3>
+            <p>Jsou to značky, které zdůrazňují význam určitého textu.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Element</th>
+                        <th>Použití</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>article</td>
+                        <td>článek, zpráva</td>
+                    </tr>
+                    <tr>
+                        <td>address</td>
+                        <td>vypsání adresy</td>
+                    </tr>
+                    <tr>
+                        <td>nav</td>
+                        <td>navigace</td>
+                    </tr>
+                    <tr>
+                        <td>aside</td>
+                        <td>postranní blok</td>
+                    </tr>
+                    <tr>
+                        <td>summary</td>
+                        <td>souhrn informací</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="entity">
+            <h2>Entity v HTML</h2>
+            <p>Entity jsou sekvence znaků, pomocí kterých můžeme vypsat jiné znaky:
+                &copy; (copyriht), &reg; (registrační značka), &nbsp; (nedělitelná mezera)
+            </p>
+            <p>Entity mohou nahradit i ty znaky, které mají speciální významv HTML:
+                &lt; (menší než), &gt; (větší než), &amp (ampersand)
+            </p>
+            <p>
+                Entity lze také vytvářet pomocí znakových kodů:
+                <ul>
+                    <li>pomocí desítkové soustavy:
+                        &#64; (zavináč), &#124; (pipeline)
+                    </li>
+                    <li>
+                        pomocí šestnáckové soustavy:
+                        &#x263c; (symbol slunce), &#x263b (zatmění slunce)
+                    </li>
+                </ul>
+            </p>
+        </section>
+        <section id="multimedia">
+            <h2>Multimédia na webových stránkách</h2>
+            <h3>Statické obrázky</h3>
+            <figure>
+                <img src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="školní logo" title="logo SŠPU Opava" height="50">
+                <figcaption>Obrázek školního loga</figcaption>
+            </figure>
+            <h3>Videa</h3>
+            <video width="320" height="240" controls autoplay muted>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/ogg">
+                </video>
+                <h3>Zvukové soubory</h3>
+                
+    </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
